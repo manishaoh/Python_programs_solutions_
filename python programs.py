@@ -53,7 +53,7 @@ def is_anagram(s,s1):
       return True
   return False
 
-is_anagram("sos","oss")v
+is_anagram("sos","oss")
 
 # Identify duplicate elements in a list
 
