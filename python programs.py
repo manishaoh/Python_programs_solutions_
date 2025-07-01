@@ -47,12 +47,13 @@ find_primes_in_range(start, end)
 
 # Determine if two strings are anagrams of each other
 
-def is_anagram(s):
-  if s[::-1]==s:
-    return True
+def is_anagram(s,s1):
+  if len(s)==len(s1):
+    if sorted(s)==sorted(s1):
+      return True
   return False
 
-is_anagram("sos")
+is_anagram("sos","oss")v
 
 # Identify duplicate elements in a list
 
